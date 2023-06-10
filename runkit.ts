@@ -106,7 +106,7 @@ namespace runkit {
 
 
 
-    function motorOn(motors: Motors, direction: Dir, speed: number): void {
+    export function motorOn(motors: Motors, direction: Dir, speed: number): void {
         /* convert 0-100 to 0-1023 by a simple multiple by (speedMax / 100) */
         let outputVal = Math.round(speed * speedMax / 100)
         if (outputVal > speedMax) {
@@ -136,7 +136,7 @@ namespace runkit {
         }
     }
 
-    function motorOff(motors: Motors): void {
+    export function motorOff(motors: Motors): void {
         switch (motors) {
             case Motors.Left:
                 pins.digitalWritePin(DigitalPin.P14, 0)
