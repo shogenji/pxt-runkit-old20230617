@@ -1,11 +1,11 @@
 {
-    "runkit.move_forward|block": "すすむ（ミリ秒） $duration",
-    "runkit.move_backward|block": "さがる（ミリ秒） $duration",
-    "runkit.rotate_ccw|block": "左回転（ミリ秒） $duration",
-    "runkit.rotate_cw|block": "右回転（ミリ秒） $duration",
+    "runkit.moveForward|block": "すすむ（ミリ秒） $duration",
+    "runkit.moveBackward|block": "さがる（ミリ秒） $duration",
+    "runkit.rotateCcw|block": "左回転（ミリ秒） $duration",
+    "runkit.rotateCw|block": "右回転（ミリ秒） $duration",
     "runkit.stop|block": "止まる",
-    "runkit.set_speed_ratio|block": "スピードを $speed ％に設定する",
-    "runkit.set_max_speed|block": "最高スピードを $speed に設定する",
+    "runkit.setSpeedRatio|block": "スピードを $speed ％に設定する",
+    "runkit.setMaxSpeed|block": "最高スピードを $speed に設定する",
     "runkit|block": "走らせようキット",
     "{id:category}Run Kit": "走らせようキット",
     "{id:subcategory}Settings": "設定"
