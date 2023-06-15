@@ -8,5 +8,5 @@
     "runkit.setMaxSpeed|block": "最高スピードを$speed に設定する",
     "runkit|block": "走らせようキット",
     "{id:category}Run Kit": "走らせようキット",
-    "{id:subcategory}Settings": "設定"
+    "{id:subcategory}Settings": "設定",
 }
