@@ -9,7 +9,8 @@
         "main.ts",
         "README.md",
         "runkit.ts",
-        "_locales/ja/hanya-strings.json"
+        "_locales/ja/hanya-strings.json",
+        "_locales/ja/runkit-strings.json"
     ],
     "testFiles": [
         "test.ts"
