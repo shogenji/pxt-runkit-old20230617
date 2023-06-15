@@ -5,10 +5,10 @@
         "core": "*"
     },
     "files": [
+        "runkit.ts",
         "main.blocks",
         "main.ts",
         "README.md",
-        "runkit.ts",
         "_locales/ja/runkit-strings.json"
     ],
     "testFiles": [
