@@ -78,6 +78,7 @@ namespace runkit {
     //% weight=50
     //% block="Set speed ratio to $speed"
     //% speed.min=0 speed.max=100 speed.defl=50
+    //% speed.shadow="speedPicker"
     //% subcategory="Settings"
     export function setSpeedRatio(speed: number): void {
         if (speed < 0) {
@@ -91,7 +92,7 @@ namespace runkit {
     //% blockId=set_max_speed
     //% weight=40
     //% block="Set max speed to $speed"
-    //% speed.min=0 speed.max=1023 speed.defl=500
+    //% speed.min=0 speed.max=1023 speed.defl=256
     //% subcategory="Settings"
     export function setMaxSpeed(speed: number): void {
         if (speed < 0) {
