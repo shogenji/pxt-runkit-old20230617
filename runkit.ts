@@ -77,7 +77,7 @@ namespace runkit {
     //% blockId=set_speed_ratio
     //% weight=50
     //% block="Set speed ratio to $speed"
-    //% speed.min=0 speed.max=100
+    //% speed.min=0 speed.max=100 speed.defl=50
     //% speed.shadow="speedPicker"
     //% subcategory="Settings"
     export function setSpeedRatio(speed: number): void {
